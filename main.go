@@ -1,4 +1,4 @@
-package main
+package CerberusLabsLicenseManagerGo
 
 import (
 	"fmt"
