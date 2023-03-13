@@ -48,14 +48,14 @@ func (lm *LicenseManager) printLogs(logs []string) {
 func (lm *LicenseManager) Validate(validCallback func(), nonValidCallback func()) {
 	validity := lm.isValid()
 
+	logs := lm.generateLogList(validity)
+	printRectangle(logs)
+
 	if validity {
 		validCallback()
 	} else {
 		nonValidCallback()
 	}
-
-	logs := lm.generateLogList(validity)
-	printRectangle(logs)
 	lm.startLicenseChecker(nonValidCallback)
 }
 
