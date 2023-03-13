@@ -1,9 +1,9 @@
 package rest
 
 import (
-	"CerberusLabsLicenseManagerGo/license"
 	"encoding/json"
 	"fmt"
+	"github.com/Cerberus-Labs-Technologies/License-Manager-Go/license"
 	"io"
 	"net/http"
 	"time"

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"CerberusLabsLicenseManagerGo/license"
-	"CerberusLabsLicenseManagerGo/rest"
 	"fmt"
+	"github.com/Cerberus-Labs-Technologies/License-Manager-Go/license"
+	"github.com/Cerberus-Labs-Technologies/License-Manager-Go/rest"
 	"log"
 	"strconv"
 	"strings"
